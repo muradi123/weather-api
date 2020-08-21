@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+div.hfc5uxy70x{
+    font-family: 'Open Sans', sans-serif;
+    width: 400px;
+    height: 500px;
+    background-color: #f5f1da;
+    
+}
+.n8hp0nuw46{
+    margin: 0 3%;
+    width: 100%;
+    padding-top: 10px;
+    font-weight: bold;
+    height: 50px;
+    letter-spacing: 0.04em;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.ouumif3trb{
+    height: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ouumif3trb:focus{
+    outline: none;
+}
+
+.j64z86sju7{
+    height: 31px;
+    color: #fff;
+    border: none;
+    background: #24a19c;
+    cursor: pointer;
+    transition: background 0.5s;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.j64z86sju7:hover{
+   background:#127681;
+}
+
+.j64z86sju7:focus{
+    outline: none;
+}
+
+.u8jbutwuib{
+    margin: -10px 3%;
+    padding-top: -8px;
+}
+
+.iis1enrd8y{
+    background: #1089ff;
+    border: none;
+    height: 31px;
+    width: 40px;
+    margin-left: 3px;
+    position: absolute;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.iis1enrd8y:hover{
+    background: #035aa6;
+}
+
+.iis1enrd8y:focus{
+   outline: none;
+}
+
+.iis1enrd8y img{
+    width: 20px;
+    height: 19px;
+    color: #fff;
+}
