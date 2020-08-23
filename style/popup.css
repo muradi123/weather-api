@@ -8,7 +8,7 @@ div.hfc5uxy70x{
     font-family: 'Open Sans', sans-serif;
     width: 400px;
     height: 500px;
-    background-color: #f5f1da;
+    background: #f5f1da;
     position: relative;
     z-index: 50;
 }
@@ -235,4 +235,32 @@ div.hfc5uxy70x{
 
 .cksiddtmqh:hover{
     background-image: url('../images/recycle-bin2.png');
+}
+
+
+.cont-main-desc-temp{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#auuseqgqsi{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+}
+
+#gwsqhihlbm{
+    font-size: 40px;
+}
+
+#avudmgsrhq{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+.rainy-fsfsd{
+    background: url('/images/rain.jpg');
+    background-size: cover;
 }
