@@ -29,6 +29,14 @@ if(description.includes('rain')){
         }); 
         let audio = new Audio('../audio/rain-sound.mp3');
         audio.play();
+
+        audio.addEventListener("canplaythrough", function () {
+            setTimeout(function(){
+                audio.pause();
+                console.log('stop sucsess')
+            },
+            7000);
+    }, false); 
    
 }
 else if(description.includes('clouds') || description.includes('cloudy')){
@@ -40,6 +48,7 @@ else if(description.includes('clouds') || description.includes('cloudy')){
     $('#auuseqgqsi').css('color', '#fff')
     $('#auuseqgqsi').css('font-weight', 'bolder')
     $('#avudmgsrhq').css('color', '#000')
+    
 }
 
 else if(description.includes('thunderstorm')){
@@ -50,6 +59,7 @@ else if(description.includes('thunderstorm')){
     }); 
     $('.n8hp0nuw46').css('color', '#fff')
     $('.kkvui9z53a').css('color', '#fff')
+   
     
 }
 
@@ -61,7 +71,7 @@ else if(description.includes('drizzle')){
     }); 
     $('.n8hp0nuw46').css('color', '#fff')
     $('.kkvui9z53a').css('color', '#fff')
-   
+    
 }
 
 else if(description.includes('haze')){
@@ -82,7 +92,7 @@ else if(description.includes('fog')){
         'background-size':'cover'
     }); 
    
-   
+    
 }
 
 
@@ -93,7 +103,7 @@ else if(description.includes('smoke')){
         'background-size':'cover'
     }); 
    
-   
+    
 }
 
 else if(description.includes('snow')){
@@ -106,6 +116,7 @@ else if(description.includes('snow')){
     $('#auuseqgqsi').css('font-weight', 'bolder')
     $('#avudmgsrhq').css('color', '#000')
     $('.nxkwvkcq0b').css('color', '#fff')
+    
 }
 else if(description.includes('clear sky')){
 
@@ -117,6 +128,7 @@ else if(description.includes('clear sky')){
     $('#avudmgsrhq').css('color', '#000')
     $('.n8hp0nuw46').css('color', '#fff')
     $('.kkvui9z53a').css('color', '#fff')
+   
 }
     let icon = d.weather[0].icon;
     document.getElementById('auuseqgqsi').innerHTML = description;
